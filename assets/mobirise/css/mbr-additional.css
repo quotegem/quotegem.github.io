@@ -33,11 +33,11 @@ body {
 }
 .display-5 {
   font-family: 'Jost', sans-serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
@@ -74,9 +74,9 @@ body {
     line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.76rem;
-    font-size: calc( 1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 0.96rem;
@@ -688,33 +688,54 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-s48MCQYojq {
+.cid-uFVxTPSwyz {
   background-image: url("../../../assets/images/screenshot-2025-03-18-at-10.44.47pm-1800x1200.png");
 }
-.cid-s48MCQYojq .mbr-section-title {
+.cid-uFVxTPSwyz .mbr-section-title {
   text-align: center;
   color: #ffffff;
 }
-.cid-s48MCQYojq .mbr-text,
-.cid-s48MCQYojq .mbr-section-btn {
+.cid-uFVxTPSwyz .mbr-text,
+.cid-uFVxTPSwyz .mbr-section-btn {
   color: #ffffff;
   text-align: center;
 }
 @media (max-width: 991px) {
-  .cid-s48MCQYojq .mbr-section-title,
-  .cid-s48MCQYojq .mbr-section-btn,
-  .cid-s48MCQYojq .mbr-text {
+  .cid-uFVxTPSwyz .mbr-section-title,
+  .cid-uFVxTPSwyz .mbr-section-btn,
+  .cid-uFVxTPSwyz .mbr-text {
     text-align: center;
   }
 }
-.cid-s48udlf8KU {
+.cid-uFVxN36sr9 {
   padding-top: 5rem;
   padding-bottom: 2rem;
   background-color: #ffffff;
 }
-.cid-s48udlf8KU .mbr-section-title {
+.cid-uFVxN36sr9 .mbr-section-title {
   text-align: left;
 }
-.cid-s48udlf8KU .mbr-section-subtitle {
+.cid-uFVxN36sr9 .mbr-section-subtitle {
   text-align: left;
+}
+.cid-uFVzXdxPRh {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-uFVzXdxPRh .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.cid-uFVzXdxPRh form .mbr-section-btn {
+  text-align: center;
+  width: 100%;
+}
+.cid-uFVzXdxPRh form .mbr-section-btn .btn {
+  display: inline-flex;
+}
+@media (max-width: 991px) {
+  .cid-uFVzXdxPRh form .mbr-section-btn .btn {
+    width: 100%;
+  }
 }

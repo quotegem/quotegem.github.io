@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "My Site",
+    "name": "Site-03-19_1712",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -18,7 +18,7 @@
         "display2Font": "Jost",
         "display2Size": 3,
         "display5Font": "Jost",
-        "display5Size": 2.2,
+        "display5Size": 2,
         "display7Font": "Jost",
         "display7Size": 1.2,
         "display4Font": "Jost",
@@ -28,11 +28,10 @@
         "underlinedLinks": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      },
-      "additionalSetColors": []
+      }
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "5.0.2",
+    "versionFirst": "5.3.0",
     "siteFonts": [
       {
         "css": "'Jost', sans-serif",
@@ -40,17 +39,8 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 20,
-    "versionPublish": "5.3.0",
-    "imageResize": true,
-    "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/final-image-128x128.png",
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
-    "cookiesAlert": false,
-    "gdpr": false
+    "uniqCompNum": 4,
+    "versionPublish": "5.3.0"
   },
   "pages": {
     "index.html": {
@@ -91,9 +81,11 @@
             }
           },
           "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/screenshot-2025-03-18-at-10.44.47pm-1800x1200.png\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>QuoteGem</b></h1>\n                <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Welcome to Quote Gem.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-white\" href=\"index.html#content1-8\" data-app-placeholder=\"Type Text\">Privacy Policy</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s48MCQYojq",
-          "_anchor": "header1-f",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/screenshot-2025-03-18-at-10.44.47pm-1800x1200.png\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>QuoteGem</b></h1>\n                <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Welcome to QuoteGem.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-white\" href=\"privacypolicy\" data-app-placeholder=\"Type Text\">Privacy Policy</a> <a class=\"btn btn-primary\" href=\"privacypolicy\" data-app-placeholder=\"Type Text\">Contact Us</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "header1-2",
+          "_isUserblock": true,
+          "_cid": "uFVxTPSwyz",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -120,13 +112,53 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Privacy Policy</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Privacy Policy for QuoteGem<div><br></div><div>Effective date: March 18, 2025</div><div><br></div><div><b>Introduction</b></div><div><br></div><div>At QuoteGem, we respect your privacy. This Privacy Policy outlines how we handle your data.</div><div><br></div><div><b>No Collection of Personal Information</b></div><div><br></div><div>We do not collect, use, save, or have access to any personal data through the QuoteGem app for iOS, iPad, or any other device.</div><div><br></div><div><b>App Settings</b></div><div><br></div><div>Any individual settings related to the app are not personal and are stored only on your device.</div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s48udlf8KU",
-          "_anchor": "content1-8",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Privacy Policy</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Privacy Policy for QuoteGem<div><br></div><div>Effective date: March 18, 2025</div><div><br></div><div><b>Introduction</b></div><div><br></div><div>At QuoteGem, we respect your privacy. This Privacy Policy outlines how we handle your data.</div><div><br></div><div><b>No Collection of Personal Information</b></div><div><br></div><div>We do not collect, use, save, or have access to any personal data through the QuoteGem app for iOS, iPad, or any other device.</div><div><br></div><div><b>App Settings</b></div><div><br></div><div>Any individual settings related to the app are not personal and are stored only on your device.</div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-1",
+          "_isUserblock": true,
+          "_cid": "uFVxN36sr9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            ".mbr-overlay": {
+              "background-color": "@overlayColor",
+              "opacity": "@overlayOpacity"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "form": {
+              ".mbr-section-btn": {
+                "text-align": "center",
+                "width": "100%",
+                ".btn": {
+                  "display": "inline-flex",
+                  "@media (max-width: 991px)": {
+                    "width": "100%"
+                  }
+                }
+              }
+            }
+          },
+          "_name": "form5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"form5\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Contact Us</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                QuoteGem@outlook.com</h4>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n                <form action=\"quotegem@outlook.com\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for contacting us!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some\n                            problem!</div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-md col-sm-12 form-group\" data-for=\"name\">\n                            <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"name\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-md col-sm-12 form-group\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"E-mail\" data-form-field=\"email\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-12 form-group\" data-for=\"url\" hidden=\"hidden\">\n                            <input type=\"url\" name=\"url\" placeholder=\"Your Site\" data-form-field=\"url\" class=\"form-control\" value hidden=\"hidden\">\n                        </div>\n                        <div class=\"col-12 form-group\" data-for=\"textarea\">\n                            <textarea name=\"textarea\" placeholder=\"Message\" data-form-field=\"textarea\" class=\"form-control\"></textarea>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn\">\n                            <a type=\"submit\" class=\"btn btn-primary\">Send message</a>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uFVzXdxPRh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "form5-3"
         }
       ]
     }
